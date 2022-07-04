@@ -17,7 +17,7 @@ services:
     entrypoint: /bin/sh
     command: -c "while sleep 1000; do :; done"
 
-  test-ubuntu-14.04:
+  test-ubuntu-14-04:
     image: ubuntu:14.04
     entrypoint: /bin/sh
     command: -c "while sleep 1000; do :; done"
